@@ -137,6 +137,7 @@ class ProductCustomSunEduzz {
             'deadline' => $this->deadline,
       			'value' => $this->shippingValue,
       			'hash' => $this->hashCustomShipping,
+            'zipCode' => $this->zipCode
           );
           $vecData['ship'] = $vecCustomValue;
         }
