@@ -154,7 +154,7 @@ class ProductCustomSunEduzz {
   {
     $generatedHash = $this->generateBase64Hash();
 
-    return 'https://c.eduzz.com/'. $this->contentId . '?dataCtm=' . $generatedHash . '&postalCode' . $this->zipCode;
+    return 'https://c.eduzz.com/'. $this->contentId . '?dataCtm=' . $generatedHash . '&cep=' . $this->zipCode;
   }
 
 }
